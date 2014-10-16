@@ -15,3 +15,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(document).ready(function() {
+	setInterval(function () {
+		$('#teste').html(countdown( new Date(2015, 8, 15, 17, 0, 0, 0) ).toString());
+	}, 1000);
+});
