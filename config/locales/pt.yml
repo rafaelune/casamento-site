@@ -22,5 +22,6 @@
 pt:
   are_getting_married: "vão se casar..."
   in: "em"
-  her_description: "<p><strong>Mariana Vilela</strong> --. -- e testa sistemas para sobreviver.</p>"
+  her_description: "<p><strong>Mariana Vilela</strong> nascida em São José dos Campos é a jukebox do casal, quase sempre conhece todas as músicas. Dorme enquanto o noivo joga video-game, vibra com os jogos do São Paulo e testa sistemas para sobreviver.</p>"
   his_description: "<p><strong>Rafael Une</strong> nasceu no interior paulista, na cidade de São José dos Campos, onde vive até hoje. Nerd clássico, adora passar horas jogando video-game, <span class='risk'>torce</span> sofre pelo o Palmeiras e desenvolve sistemas para sobreviver.</p>"
+  their_story: "<p><strong>Eles</strong> estudaram no mesmo colégico técnico mas só foram se conhecer alguns anos mais tarde no trabalho.</p> <p>Apesar dela sempre encontrar defeitos (bugs) naquilo que ele fazia, se tornaram grandes amigos, dessa amizade nasceu uma admiração, uma vontade de ficarem sempre juntos e então namoraram e noivaram.</p>"
