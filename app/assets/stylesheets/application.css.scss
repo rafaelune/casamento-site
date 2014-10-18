@@ -137,11 +137,16 @@ h2 {
     width: 600px;
     margin: 45px 25%;
     text-align: center;
+    height: 100px;
 }
 
 .bg-white-area {
 	background-color: rgba(255, 255, 255, 0.5);
 	min-height: 300px;
+}
+
+#about {
+	margin-top: 50px;
 }
 
 #about p {
@@ -178,4 +183,14 @@ h2 {
     clear: left;
     float: left;
     width: 270px;
+}
+#about .they {
+	margin-top: 50px;
+	padding: 150px 0 0 280px;
+	background: image-url("content-separation.png") no-repeat center top;
+}
+
+#about .they p {
+	width: 620px;
+	max-width: 620px;
 }
