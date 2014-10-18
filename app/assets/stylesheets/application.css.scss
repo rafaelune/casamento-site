@@ -144,10 +144,25 @@ h2 {
 	min-height: 300px;
 }
 
+#about p {
+	font-size: 1em;
+}
+
+#about strong {
+	color: #f88484;
+	text-transform: uppercase;
+	font-size: 1.3em;
+}
+
+#about p span.risk {
+	text-decoration: line-through;
+}
+
 #about .she {
     float: left;
     margin-left: 280px;
 }
+
 #about .she p {
     clear: right;
     float: right;
@@ -158,6 +173,7 @@ h2 {
     float: left;
     margin-left: 100px;
 }
+
 #about .he p {
     clear: left;
     float: left;
