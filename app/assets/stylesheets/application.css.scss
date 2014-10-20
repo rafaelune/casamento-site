@@ -11,6 +11,10 @@
  *= require_self
  *= require_tree .
  */
+$navbar-inverse-bg: #393939;
+$navbar-inverse-link-active-bg: #393939;
+$navbar-inverse-link-active-color: #f88484;
+$navbar-inverse-link-color: #fff;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -45,6 +49,15 @@ body {
 .top-menu {
 	padding: 0.5em 0 0.33333em;
 	color: #393939;
+}
+
+.top-menu li a {
+	font-size: 1.3em;
+}
+
+.top-menu li.active a {
+	border-bottom: 2px solid #f88484;
+	padding: 15px 0 3px 0;
 }
 
 #home {

@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 pt:
+  about: "Sobre"
   are_getting_married: "vão se casar..."
   in: "em"
   her_description: "<p><strong>Mariana Vilela</strong> nascida em São José dos Campos é a jukebox do casal, quase sempre conhece todas as músicas. Dorme enquanto o noivo joga video-game, vibra com os jogos do São Paulo e testa sistemas para sobreviver.</p>"
