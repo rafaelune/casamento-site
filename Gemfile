@@ -6,8 +6,8 @@ gem 'rails', '4.0.4'
 gem 'bootstrap-sass', '~> 3.2.0.2'
 gem 'autoprefixer-rails'
 
-# Use postgresql as the database for Active Record
-gem 'pg'
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3', group: :development
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
@@ -38,6 +38,7 @@ end
 # Heroku plugin to compile assets
 group :production do
   gem 'rails_12factor'
+  gem 'pg'
 end
 
 # Use ActiveModel has_secure_password

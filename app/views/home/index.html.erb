@@ -36,22 +36,25 @@
 		<div class="row date">
 			19.09.2015
 		</div>
-		<div>
+		<div class="row">
 			<div class="countdown-timer">
 				<span><%= raw t('in') %> <span id="timer"></span></span>
 			</div>
 		</div>
-		<div id="about" class="row">
+		<div id="about">
 			<div class="container">
-				<div class="she">
-					<%= raw t('her_description') %>
-				</div>
-				<div class="he">
-					<%= raw t('his_description') %>
+				<div class="row she-he">
+					<div class="she">
+						<%= raw t('her_description') %>
+					</div>
+					<div class="he">
+						<%= raw t('his_description') %>
+					</div>
 				</div>
 			</div>
+
 			<div class="container">
-				<div class="they">
+				<div class="row they">
 					<%= raw t('their_story') %>
 				</div>
 			</div>

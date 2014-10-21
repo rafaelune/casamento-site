@@ -148,7 +148,7 @@ h2 {
     font-size: 2em;
     padding: 0.2em 0.5em;
     width: 600px;
-    margin: 45px 25%;
+    margin: 45px 25% 0 25%;
     text-align: center;
     height: 100px;
 }
@@ -176,9 +176,14 @@ h2 {
 	text-decoration: line-through;
 }
 
+#about .she-he {
+	margin: 0 24%;
+	width: 650px;
+}
+
 #about .she {
     float: left;
-    margin-left: 280px;
+    padding-right: 50px;
 }
 
 #about .she p {
@@ -189,7 +194,7 @@ h2 {
 
 #about .he {
     float: left;
-    margin-left: 100px;
+    padding-left: 50px;
 }
 
 #about .he p {
@@ -198,8 +203,8 @@ h2 {
     width: 270px;
 }
 #about .they {
-	margin-top: 50px;
-	padding: 150px 0 0 280px;
+	margin: 50px 25% 0 25%;
+	padding: 150px 0 0 0;
 	background: image-url("content-separation.png") no-repeat center top;
 }
 
