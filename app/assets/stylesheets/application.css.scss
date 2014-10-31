@@ -160,6 +160,7 @@ h2 {
 
 #about {
 	margin-top: 50px;
+	width: 100%;
 }
 
 #about p {
@@ -176,34 +177,25 @@ h2 {
 	text-decoration: line-through;
 }
 
-#about .she-he {
-	margin: 0 24%;
-	width: 650px;
-}
-
 #about .she {
     float: left;
-    padding-right: 50px;
+    margin-left: 15%;
 }
 
 #about .she p {
-    clear: right;
-    float: right;
     width: 270px;
 }
 
 #about .he {
     float: left;
-    padding-left: 50px;
+    margin-left: 15%;
 }
 
 #about .he p {
-    clear: left;
-    float: left;
     width: 270px;
 }
 #about .they {
-	margin: 50px 25% 0 25%;
+	margin: 300px 25% 0 25%;
 	padding: 150px 0 0 0;
 	background: image-url("content-separation.png") no-repeat center top;
 }
