@@ -161,13 +161,14 @@ h2 {
 #about {
 	margin-top: 50px;
 	width: 100%;
+	min-height: 150px;
 }
 
 #about p {
 	font-size: 1em;
 }
 
-#about strong {
+#about strong, .they strong {
 	color: #f88484;
 	text-transform: uppercase;
 	font-size: 1.3em;
@@ -175,6 +176,10 @@ h2 {
 
 #about p span.risk {
 	text-decoration: line-through;
+}
+
+#about .both {
+	margin: 0px 10%;
 }
 
 #about .she {
@@ -194,13 +199,13 @@ h2 {
 #about .he p {
     width: 270px;
 }
-#about .they {
-	margin: 300px 25% 0 25%;
-	padding: 150px 0 0 0;
+
+.they {
 	background: image-url("content-separation.png") no-repeat center top;
+	margin: 0 10%;
+	padding: 150px 0 0 0;
 }
 
-#about .they p {
-	width: 620px;
-	max-width: 620px;
+.they p {
+	margin: 0 15%;
 }
