@@ -158,44 +158,48 @@ h2 {
 }
 
 #about {
+	padding-bottom: 80px;
+}
+
+#one-one {
 	margin-top: 50px;
 	width: 100%;
 	min-height: 150px;
 }
 
-#about p {
+#one-one p {
 	font-size: 1em;
 }
 
-#about strong, .they strong {
+#one-one strong, .they strong {
 	color: #f88484;
 	text-transform: uppercase;
 	font-size: 1.3em;
 }
 
-#about p span.risk {
+#one-one p span.risk {
 	text-decoration: line-through;
 }
 
-#about .both {
+#one-one .two {
 	margin: 0px 10%;
 }
 
-#about .she {
+#one-one .she {
     float: left;
     margin-left: 15%;
 }
 
-#about .she p {
+#one-one .she p {
     width: 270px;
 }
 
-#about .he {
+#one-one .he {
     float: left;
     margin-left: 15%;
 }
 
-#about .he p {
+#one-one .he p {
     width: 270px;
 }
 
@@ -207,4 +211,9 @@ h2 {
 
 .they p {
 	margin: 0 15%;
+}
+
+#ceremony {
+	background: image-url("alpendre.jpg") no-repeat scroll center bottom / cover  transparent;
+	height: 250px;
 }
