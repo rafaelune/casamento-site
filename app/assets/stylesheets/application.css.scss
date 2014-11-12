@@ -219,10 +219,13 @@ h2 {
 }
 
 #ceremony-address {
-	margin: 10% 25%;
+	text-align: center;
+	position: relative;
+	margin: 10% 0;
 }
 
 #ceremony-address img {
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 	border: 5px solid #fafafa;
+	margin: 0 15%;
 }
