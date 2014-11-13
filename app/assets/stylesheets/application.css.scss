@@ -218,14 +218,27 @@ h2 {
 	height: 250px;
 }
 
+#ceremony-info {
+	margin: 0 25%;
+}
+
 #ceremony-address {
 	text-align: center;
 	position: relative;
-	margin: 10% 0;
+	margin: 5% 0;
 }
 
 #ceremony-address img {
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 	border: 5px solid #fafafa;
 	margin: 0 15%;
+}
+
+#ceremony-address h3 {
+	font-family: "Great Vibes",cursive;
+	font-size: 4em;
+}
+
+#ceremony-address p {
+	font-size: 1em;
 }
