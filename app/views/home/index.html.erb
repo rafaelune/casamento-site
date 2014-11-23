@@ -65,19 +65,20 @@
 	<div id="ceremony-info">
 		<div id="ceremony-address">
 			<div class="address">
-				<img height="300" width="300" alt="Igreja" src="http://www.alpendreeventos.com.br/wp/wp-content/uploads/2013/11/081.jpg">
+				<%= image_tag("chapel.jpg", :width=>"300", :height=>"300", :alt=>t('chapel_image')) %>
+
 				<%= content_tag :h3, t('alpendre_site') %>
 				<%= content_tag :p, t('site_address') %>
 				<%= link_to t('show_in_google_maps'), '#' %>
 			</div>
 
 			<div class="ceremony-reception">
-				<h4>Cerimônia</h4>
+				<%= content_tag :h4, t('ceremony') %>
 				<p>17h</p>
 			</div>
 
 			<div class="ceremony-reception">
-				<h4>Recepção</h4>
+				<%= content_tag :h4, t('reception') %>
 				<p>18h</p>
 			</div>
 		</div>
