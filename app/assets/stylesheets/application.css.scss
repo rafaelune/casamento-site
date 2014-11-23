@@ -221,18 +221,20 @@ h2 {
 
 #ceremony-info {
 	margin: 0 25%;
+	padding: 1% 0;
 }
 
 #ceremony-address {
 	text-align: center;
 	position: relative;
 	margin: 5% 0;
+	display: table;
+	width: 100%;
 }
 
 #ceremony-address .address {
 	width: 100%;
 	margin-bottom: 5%;
-
 }
 
 #ceremony-address img {
