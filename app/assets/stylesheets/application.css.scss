@@ -168,7 +168,7 @@ h2 {
 }
 
 #one-one p {
-	font-size: 1em;
+	font-size: 1.3em;
 }
 
 #one-one strong, .they strong {
@@ -211,6 +211,7 @@ h2 {
 
 .they p {
 	margin: 0 15%;
+	font-size: 1.3em;
 }
 
 #ceremony {
@@ -228,6 +229,12 @@ h2 {
 	margin: 5% 0;
 }
 
+#ceremony-address .address {
+	width: 100%;
+	margin-bottom: 5%;
+
+}
+
 #ceremony-address img {
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 	border: 5px solid #fafafa;
@@ -239,6 +246,26 @@ h2 {
 	font-size: 4em;
 }
 
-#ceremony-address p {
-	font-size: 1em;
+#ceremony-address h4 {
+	font-size: 2.4em;
+	text-transform: uppercase;
+}
+
+#ceremony-address p, #ceremony-address a {
+	font-size: 1.5em;
+}
+
+#ceremony-address a {
+	color: #f88484;
+}
+
+#ceremony-address .ceremony-reception {
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 50%;
+}
+
+#ceremony-address .ceremony-reception p {
+	font-size: 1.5em;
 }

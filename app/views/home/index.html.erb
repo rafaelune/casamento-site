@@ -61,21 +61,25 @@
 <div id="ceremony">
 </div>
 
-<div id="ceremony-info">
-	<div id="ceremony-address">
-		<img height="300" width="300" alt="Igreja" src="http://www.alpendreeventos.com.br/wp/wp-content/uploads/2013/11/081.jpg">
-		<%= content_tag :h3, t('alpendre_site') %>
-		<%= content_tag :p, t('site_address') %>
-		<%= link_to t('show_in_google_maps'), '#' %>
-	</div>
+<div style="background-color: #fff;">
+	<div id="ceremony-info">
+		<div id="ceremony-address">
+			<div class="address">
+				<img height="300" width="300" alt="Igreja" src="http://www.alpendreeventos.com.br/wp/wp-content/uploads/2013/11/081.jpg">
+				<%= content_tag :h3, t('alpendre_site') %>
+				<%= content_tag :p, t('site_address') %>
+				<%= link_to t('show_in_google_maps'), '#' %>
+			</div>
 
-	<div class="" style="border: 1px solid blue; float: left; margin: 0 15%; display: block; position: relative;">
-		<h3>CERIMONIA</h3>
-		<p>17h</p>
-	</div>
+			<div class="ceremony-reception">
+				<h4>Cerimônia</h4>
+				<p>17h</p>
+			</div>
 
-	<div class="" style="border: 1px solid red;margin: 0 15%; float: left;position: relative;">
-		<h3>RECEPÇÃO</h3>
-		<p>18h</p>
+			<div class="ceremony-reception">
+				<h4>Recepção</h4>
+				<p>18h</p>
+			</div>
+		</div>
 	</div>
 </div>
