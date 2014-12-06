@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 pt:
+  page_title: "Casamento Mariana e Rafael - 19 de setembro de 2015"
   about: "Sobre"
   are_getting_married: "vão se casar..."
   in: "em"
