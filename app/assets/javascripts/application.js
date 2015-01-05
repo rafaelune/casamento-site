@@ -27,17 +27,24 @@ function loadMap() {
 	var contentString = '<p>Alpendre</p><p>Estrada Municipal Geraldo Cursino de Moura, 1943 - Bairro Registro - Taubaté - SP</p>';
 
 	var infowindow = new google.maps.InfoWindow({
-	  content: contentString
+		content: contentString
 	});
 
 	var marker = new google.maps.Marker({
-	  position: myLatlng,
-	  map: map,
-	  title: 'Uluru (Ayers Rock)'
+		position: myLatlng,
+		map: map,
+		title: 'Uluru (Ayers Rock)'
 	});
 
+	marker.setAnimation(google.maps.Animation.BOUNCE);
+
 	google.maps.event.addListener(marker, 'click', function() {
-		infowindow.open(map,marker);
+		infowindow.open(map, marker);
+		marker.setAnimation(null);
+	});
+
+	google.maps.event.addListener(infowindow, 'closeclick', function() {
+		marker.setAnimation(google.maps.Animation.BOUNCE);
 	});
 }
 
