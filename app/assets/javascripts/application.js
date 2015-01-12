@@ -33,7 +33,7 @@ function loadMap() {
 	var marker = new google.maps.Marker({
 		position: myLatlng,
 		map: map,
-		title: 'Uluru (Ayers Rock)'
+		title: 'Localização do Alpendre'
 	});
 
 	marker.setAnimation(google.maps.Animation.BOUNCE);
