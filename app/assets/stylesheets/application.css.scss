@@ -313,3 +313,40 @@ blockquote footer a, blockquote footer a:hover {
 	color: #f88484;
 	font-size: 1.5em;
 }
+
+#gifts {
+	text-align: center;
+	position: relative;
+	margin: 2% 0;
+	display: table;
+	width: 100%;
+}
+
+#gifts h2 {
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	font-size: 3em;
+}
+
+#gifts h3 {
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+#gifts p {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 1.3em;
+}
+
+#gifts ul {
+	background: none repeat scroll 0 0 #fff;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	list-style: none;
+	margin-top: 2%;
+}
+
+#gifts ul li {
+	display: inline;
+}
