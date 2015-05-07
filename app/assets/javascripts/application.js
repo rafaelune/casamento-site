@@ -48,10 +48,16 @@ function loadMap() {
 	});
 }
 
+// All links with rel="external" will open in a new tab
+function linkExternals() {
+	$('a[rel="external"]').attr('target', '_blank');
+}
+
 $(document).ready(function() {
 	setInterval(function () {
 		$('#timer').html(countdown( new Date(2015, 8, 15, 17, 0, 0, 0) ).toString());
 	}, 1000);
 
 	loadMap();
+	linkExternals();
 });
