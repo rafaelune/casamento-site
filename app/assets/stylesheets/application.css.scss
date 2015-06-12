@@ -275,6 +275,34 @@ h2 {
 	width: 100%;
 	height: 250px;
 }
+#hotel {
+	padding: 2% 0;
+}
+
+#hotel .hotel-description {
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#hotel .col-md-4 {
+	text-align: center;
+	margin: 5% 0;
+}
+
+#hotel .col-md-4 h4 {
+	text-transform: uppercase;
+	font-size: 2.3em;
+}
+
+#hotel .col-md-4 p {
+	font-size: 1.1em;
+	text-align: justify;
+}
+
+#hotel .col-md-4 a {
+	font-size: 1.3em;
+	color: #f88484;
+}
 
 #verse {
 	background-color: #40b29d; 

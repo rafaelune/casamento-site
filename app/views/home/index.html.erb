@@ -12,6 +12,7 @@
         <li class="active"><a href="#home">Home</a></li>
         <li><%= link_to t('about'), '#about' %></li>
         <li><%= link_to t('ceremony'), '#ceremony' %></li>
+        <li><%= link_to t('hotel'), '#hotel' %></li>
         <li><%= link_to t('gifts'), '#gifts' %></li>
         <li><%= link_to 'R.S.V.P.', '#rsvp' %></li>
       </ul>
@@ -88,6 +89,32 @@
 </div>
 
 <div id="map">
+</div>
+
+<div id="hotel" class="bg-white-area">
+	<div class="container">
+		<div class="row">
+			<div>
+				<%= content_tag :h2, t('hotel') %>
+				<%= content_tag :p, t('hotel_description'), class: "hotel-description" %>
+				<div class="col-md-4">
+					<%= content_tag :h4, "Ibis" %>
+					<%= content_tag :p, t('ibis_description') %>
+					<%= link_to t('more_details'), 'http://www.tripadvisor.com.br/Hotel_Review-g303629-d299414-Reviews-Ibis_Sao_Jose_Dos_Campos_Dutra-Sao_Jose_Dos_Campos_State_of_Sao_Paulo.html', :'rel' => 'external' %>
+				</div>
+				<div class="col-md-4">
+					<%= content_tag :h4, "Faro" %>
+					<%= content_tag :p, t('faro_description') %>
+					<%= link_to t('more_details'), 'http://www.tripadvisor.com.br/Hotel_Review-g780032-d3479447-Reviews-Faro_Hotel_Taubate-Taubate_State_of_Sao_Paulo.html', :'rel' => 'external' %>
+				</div>
+				<div class="col-md-4">
+					<%= content_tag :h4, "Mercure" %>
+					<%= content_tag :p, t('mercure_description') %>
+					<%= link_to t('more_details'), 'http://www.tripadvisor.com.br/Hotel_Review-g303629-d582687-Reviews-Mercure_Sao_Jose_Dos_Campos-Sao_Jose_Dos_Campos_State_of_Sao_Paulo.html', :'rel' => 'external' %>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div id="verse">
