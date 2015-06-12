@@ -140,15 +140,15 @@ h2 {
 }
 
 .countdown-timer {
+	margin: auto;
+	max-width: 350px;
 	background: none repeat scroll 0 0 #fff;
     border-radius: 5px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 0 6px rgba(0, 0, 0, 0.06);
-    display: inline-block;
-    font-size: 2em;
     padding: 0.2em 0.5em;
-    margin: 45px 25% 0 25%;
+    margin-top: 45px;
+    font-size: 1.8em;
     text-align: center;
-    height: 100px;
 }
 
 .bg-white-area {
