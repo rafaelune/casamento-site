@@ -305,7 +305,8 @@ h2 {
 }
 
 #verse {
-	background-color: #40b29d; 
+	background: rgb(64, 178, 157); 
+	background: rgba(64, 178, 157, 0.6);
 	min-height: 250px;
 }
 
@@ -332,14 +333,16 @@ h2 {
 }
 
 #verse blockquote footer {
-	color: #f88484;
+	color: #f9f9f9;
 	font-size: 1.3em;
 	line-height: 3em;
+	text-align: right;
 }
 
 blockquote footer a, blockquote footer a:hover {
-	color: #f88484;
+	color: #f9f9f9;
 	font-size: 1.5em;
+	font-family: 'Great Vibes', cursive;
 }
 
 #gifts {
