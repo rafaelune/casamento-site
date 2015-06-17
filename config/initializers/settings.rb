@@ -1,0 +1,1 @@
+SETTINGS = YAML::load_file(File.join(Rails.root.join('config'), 'settings.yml'))
