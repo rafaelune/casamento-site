@@ -37,4 +37,3 @@ config/secrets.yml
 bower.json
 
 /config/settings.yml
-/config/initializers/settings.rb
