@@ -1,1 +1,1 @@
-SETTINGS = YAML::load_file(File.join(Rails.root.join('config'), 'settings.yml'))
+SETTINGS = YAML::load_file(File.join(Rails.root.join('config'), 'settings.yml')) if Rails.env.development?
