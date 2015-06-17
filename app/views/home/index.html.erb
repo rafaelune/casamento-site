@@ -159,8 +159,23 @@
 			<%= content_tag :h2, 'R.S.V.P.' %>
 			<%= content_tag :p, t('rsvp_presence') %>
 			<%= content_tag :p, t('rsvp_confirm_presence') %>
-			<%= content_tag :h3, 'bindelcerimonialista@bol.com.br' %>
+			<%= form_tag(confirmation_path, :remote => true) do %>
+				<%= text_field_tag "invitation_name", nil, :placeholder => t('invitation_name') %>
+				<%= email_field_tag "guest_email", nil, :placeholder => t('guest_email') %>
+				<%= number_field_tag "guest_number", nil, :placeholder => t('guest_number') %>
+				<%= telephone_field_tag "guest_phone", nil, :placeholder => t('guest_phone') %>
+				<%= text_area_tag "guest_comment", nil, :placeholder => t('guest_comment') %>
+				<%= submit_tag t('send') %>
+			<% end %>
 			<%= content_tag :h4, t('thank_you') %>
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+	$(function() {
+		$("form").on("ajax:success", function() {
+			alert("Deu certo");
+		})
+	});
+</script>

@@ -1,0 +1,22 @@
+require 'mandrill'
+
+class Mailer
+  def send(data, email_list)
+    mandrill = Mandrill::API.new ENV["mandrill_api_key"] || SETTINGS["mandrill_api_key"]
+    message = Hash.new
+    
+    message[:subject] = "Confirmação de presença - #{data['invitation_name']}"
+    message[:html] = %Q{
+      <p>Convidado: #{data['invitation_name']}</p>
+      <p>E-mail: #{data['guest_email']}</p>
+      <p>Nro. convidados: #{data['guest_number']}</p>
+      <p>Telefone contato: #{data['guest_phone']}</p>
+      <p>Comentário: #{data['guest_comment']}</p>
+    }
+    message[:to] = email_list.map {|email| {:email => email}}
+    message[:from_email] = ENV["sender_from"] || SETTINGS["sender_from"]
+    message[:from_name] = "Mariana Vilela da Silva"
+
+    mandrill.messages.send message
+  end
+end

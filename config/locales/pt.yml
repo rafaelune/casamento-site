@@ -1,53 +1,66 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 pt:
-  page_title: "Casamento Mariana e Rafael - 19 de setembro de 2015"
-  about: "Sobre"
-  are_getting_married: "vão se casar..."
-  in: "em"
-  her_description: "<p><strong>Mariana Vilela</strong> nascida em São José dos Campos é a parte mais doce do casal. Passa horas e horas pintando as unhas, adora dormir em filmes com muitas explosões e tiroteios, vibra com os jogos do São Paulo e encontra defeitos nos sistemas alheios para sobreviver.</p>"
-  his_description: "<p><strong>Rafael Une</strong> nasceu na cidade de São José dos Campos e é a parte mais ácida do casal. Um nerd clássico, adora passar horas jogando video-game, <span class='risk'>torce</span> sofre pelo o Palmeiras e passa horas e horas escrevendo códigos malucos em frente a uma tela preta para sobreviver.</p>"
-  their_story: "<p><strong>Eles</strong> estudaram no mesmo colégio técnico mas só foram se conhecer alguns anos mais tarde, em uma empresa onde trabalharam. Ela encontrava defeitos (bugs) nos sistemas que ele produzia. E mesmo ele querendo esganar ela as vezes, aos poucos se tornaram grandes amigos. Dessa amizade, nasceu uma admiração e uma vontade de ficarem sempre juntos, por esse motivo, eles convidam você, pra testemunhar e celebrar com eles esse momento de grande alegria, onde assumem o compromisso de permanecerem unidos para o todo sempre na graça de Deus.</p>"
-  ceremony: "Cerimônia"
-  hotel: "Hospedagem"
-  gifts: "Lista"
-  reception: "Recepção"
-  alpendre_site: "Sítio Alpendre"
-  site_address: "Estr. Municipal Geraldo Cursino de Moura, 1943, Taubaté-SP"
-  show_in_google_maps: "Abrir no Google Maps"
-  chapel_image: "Entrada da capela Alpendre"
-  hotel_description: "Algumas opções caso você precise de acomodação."
-  ibis_description: "Esse hotel localizado em São José dos Campos fica próximo a Rod. Presidente Dutra e ao lado do Shopping Vale Sul."
-  faro_description: "Em Taubaté uma opção para quem deseja uma acomodação mais próxima do local da cerimônia."
-  mercure_description: "Também em São José dos Campos esse hotel está próximo do Shopping Colinas e é fácil de encontrar."
-  more_details: "Mais detalhes"
-  verse_message: "Então o Senhor Deus declarou: &quot;Não é bom que o homem esteja só; farei para ele alguém que o auxilie e lhe corresponda&quot;. Depois que formou da terra todos os animais do campo e todas as aves do céu, o Senhor Deus os trouxe ao homem para ver como este lhes chamaria; e o nome que o homem desse a cada ser vivo, esse seria o seu nome.  Assim o homem deu nomes a todos os rebanhos domésticos, às aves do céu e a todos os animais selvagens. Todavia não se encontrou para o homem alguém que o auxiliasse e lhe correspondesse. Então o Senhor Deus fez o homem cair em profundo sono e, enquanto dormia, tirou-lhe uma das costelas, fechando o lugar com carne. Com a costela que havia tirado do homem, o Senhor Deus fez uma mulher e a levou até ele. Disse então o homem:<br/><br/>&quot;Esta, sim, é osso dos meus ossos e a carne da minha carne!<br/>Ela será chamada mulher, porque do homem foi tirada&quot;<br/><br/>Por essa razão, o homem deixará pai e mãe e se unirá à sua mulher, e eles se tornarão uma só carne."
-  verse_source: "Gênesis 2:18-24"
-  gifts_registry: "Lista de Presentes"
-  gifts_ideas: "Ideias incríveis de presentes"
-  gifts_description: "Sua presenca é suficiente mas se você estiver compelido por extrema generosidade, lista de presentes foram preparadas para sua comodidade:"
-  gift_registry_on_off: "Lista no site e na loja"
-  gift_registry_off: "Lista na loja"
-  gift_registry_on: "Lista no site"
-  rsvp_presence: "Contamos com sua presença."
-  rsvp_confirm_presence: "Por favor confirme até 9 de Setembro de 2015."
-  thank_you: "Obrigado!"
+  about: Sobre
+  alpendre_site: Sítio Alpendre
+  are_getting_married: vão se casar...
+  ceremony: Cerimônia
+  chapel_image: Entrada da capela Alpendre
+  faro_description: Em Taubaté uma opção para quem deseja uma acomodação mais próxima
+    do local da cerimônia.
+  gift_registry_off: Lista na loja
+  gift_registry_on: Lista no site
+  gift_registry_on_off: Lista no site e na loja
+  gifts: Lista
+  gifts_description: 'Sua presenca é suficiente mas se você estiver compelido por
+    extrema generosidade, lista de presentes foram preparadas para sua comodidade:'
+  gifts_ideas: Ideias incríveis de presentes
+  gifts_registry: Lista de Presentes
+  guest_comment: Comentários
+  guest_email: E-mail
+  guest_number: Número de convidados
+  guest_phone: Telefone pra contato
+  her_description: <p><strong>Mariana Vilela</strong> nascida em São José dos Campos
+    é a parte mais doce do casal. Passa horas e horas pintando as unhas, adora dormir
+    em filmes com muitas explosões e tiroteios, vibra com os jogos do São Paulo e
+    encontra defeitos nos sistemas alheios para sobreviver.</p>
+  his_description: <p><strong>Rafael Une</strong> nasceu na cidade de São José dos
+    Campos e é a parte mais ácida do casal. Um nerd clássico, adora passar horas jogando
+    video-game, <span class='risk'>torce</span> sofre pelo o Palmeiras e passa horas
+    e horas escrevendo códigos malucos em frente a uma tela preta para sobreviver.</p>
+  hotel: Hospedagem
+  hotel_description: Algumas opções caso você precise de acomodação.
+  ibis_description: Esse hotel localizado em São José dos Campos fica próximo a Rod.
+    Presidente Dutra e ao lado do Shopping Vale Sul.
+  in: em
+  invitation_name: Nome no convite
+  mercure_description: Também em São José dos Campos esse hotel está próximo do Shopping
+    Colinas e é fácil de encontrar.
+  more_details: Mais detalhes
+  page_title: Casamento Mariana e Rafael - 19 de setembro de 2015
+  reception: Recepção
+  rsvp_confirm_presence: Por favor confirme até 9 de Setembro de 2015.
+  rsvp_presence: Contamos com sua presença.
+  send: Enviar
+  show_in_google_maps: Abrir no Google Maps
+  site_address: Estr. Municipal Geraldo Cursino de Moura, 1943, Taubaté-SP
+  thank_you: Obrigado!
+  their_story: <p><strong>Eles</strong> estudaram no mesmo colégio técnico mas só
+    foram se conhecer alguns anos mais tarde, em uma empresa onde trabalharam. Ela
+    encontrava defeitos (bugs) nos sistemas que ele produzia. E mesmo ele querendo
+    esganar ela as vezes, aos poucos se tornaram grandes amigos. Dessa amizade, nasceu
+    uma admiração e uma vontade de ficarem sempre juntos, por esse motivo, eles convidam
+    você, pra testemunhar e celebrar com eles esse momento de grande alegria, onde
+    assumem o compromisso de permanecerem unidos para o todo sempre na graça de Deus.</p>
+  verse_message: 'Então o Senhor Deus declarou: &quot;Não é bom que o homem esteja
+    só; farei para ele alguém que o auxilie e lhe corresponda&quot;. Depois que formou
+    da terra todos os animais do campo e todas as aves do céu, o Senhor Deus os trouxe
+    ao homem para ver como este lhes chamaria; e o nome que o homem desse a cada ser
+    vivo, esse seria o seu nome.  Assim o homem deu nomes a todos os rebanhos domésticos,
+    às aves do céu e a todos os animais selvagens. Todavia não se encontrou para o
+    homem alguém que o auxiliasse e lhe correspondesse. Então o Senhor Deus fez o
+    homem cair em profundo sono e, enquanto dormia, tirou-lhe uma das costelas, fechando
+    o lugar com carne. Com a costela que havia tirado do homem, o Senhor Deus fez
+    uma mulher e a levou até ele. Disse então o homem:<br/><br/>&quot;Esta, sim, é
+    osso dos meus ossos e a carne da minha carne!<br/>Ela será chamada mulher, porque
+    do homem foi tirada&quot;<br/><br/>Por essa razão, o homem deixará pai e mãe e
+    se unirá à sua mulher, e eles se tornarão uma só carne.'
+  verse_source: Gênesis 2:18-24
