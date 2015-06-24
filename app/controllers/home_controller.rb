@@ -3,7 +3,7 @@ class HomeController < ApplicationController
 	end
 
   def confirmation
-    mail_list = ENV["email_list"] || SETTINGS["email_list"].split(",")
+    mail_list = ENV["email_list"].split(",") || SETTINGS["email_list"].split(",")
     mailer = Mailer.new.send(params, mail_list)
     render :nothing => :ok
   end
