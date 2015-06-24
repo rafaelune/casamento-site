@@ -159,6 +159,12 @@
 			<%= content_tag :h2, 'R.S.V.P.' %>
 			<%= content_tag :p, t('rsvp_presence') %>
 			<%= content_tag :p, t('rsvp_confirm_presence') %>
+			<div id="rsvp-error-msg" class="alert alert-danger hidden" role="alert">
+				<%= raw t('rsvp_error_message') %>
+			</div>
+			<div id="rsvp-success-msg" class="alert alert-success hidden" role="alert">
+				<%= raw t('rsvp_success_message') %>
+			</div>
 			<%= form_tag(confirmation_path, :remote => true, :class => "form") do %>
 				<div class="row">
   					<div class="col-xs-12">
@@ -194,10 +200,12 @@
 
 <script type="text/javascript">
 	$(function() {
-		$("form").on("ajax:success", function() {
-			alert("Deu certo");
-		}).on("ajax:error", function() {
-			alert("Deu ruim");
+		$('form').on('ajax:success', function() {
+			$('#rsvp-error-msg').addClass('hidden');
+			$('#rsvp-success-msg').removeClass('hidden');
+		}).on('ajax:error', function() {
+			$('#rsvp-error-msg').removeClass('hidden');
+			$('#rsvp-success-msg').addClass('hidden');
 		});
 	});
 </script>
