@@ -1,6 +1,6 @@
 pt:
-  rsvp_error_message: '<strong>Ops</strong>, aconteceu algum problema e a mensagem não foi enviada. Tente novamente mais tarde e se por um acaso o erro persistir, você pode mandar um e-mail diretamente para <strong>bindelcerimonialista@bol.com.br</strong>. Não conte a noiva que tem um bug no site que o noivo fez.'
-  rsvp_success_message: '<strong>Eba!</strong> sua mensagem de confirmação foi enviada com sucesso, nos vemos no dia.'
+  rsvp_error_message_html: '<strong>Ops</strong>, aconteceu algum problema e a mensagem não foi enviada. Tente novamente mais tarde e se por um acaso o erro persistir, você pode mandar um e-mail diretamente para <strong>bindelcerimonialista@bol.com.br</strong>. Não conte a noiva que tem um bug no site que o noivo fez.'
+  rsvp_success_message_html: '<strong>Eba!</strong> sua mensagem de confirmação foi enviada com sucesso, nos vemos no dia.'
   about: Sobre
   alpendre_site: Sítio Alpendre
   are_getting_married: vão se casar...

@@ -160,10 +160,10 @@
 			<%= content_tag :p, t('rsvp_presence') %>
 			<%= content_tag :p, t('rsvp_confirm_presence') %>
 			<div id="rsvp-error-msg" class="alert alert-danger hidden" role="alert">
-				<%= raw t('rsvp_error_message') %>
+				<%= raw t('rsvp_error_message_html') %>
 			</div>
 			<div id="rsvp-success-msg" class="alert alert-success hidden" role="alert">
-				<%= raw t('rsvp_success_message') %>
+				<%= raw t('rsvp_success_message_html') %>
 			</div>
 			<%= form_tag(confirmation_path, :remote => true, :class => "form") do %>
 				<div class="row">
