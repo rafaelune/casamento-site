@@ -206,6 +206,30 @@
 		}).on('ajax:error', function() {
 			$('#rsvp-error-msg').removeClass('hidden');
 			$('#rsvp-success-msg').addClass('hidden');
+		}).validate({
+			debug: true,
+			rules: {
+				invitation_name: 'required',
+				guest_email: {
+					required: true, 
+					email: true
+				},
+				guest_number: {
+					required: true, 
+					number: true
+				}
+			},
+			messages: {
+			    invitation_name: "<%= t('invitation_name_required') %>",
+			    guest_email: {
+			    	required: "<%= t('guest_email_required') %>",
+			    	email: "<%= t('guest_email_format') %>"
+			    },
+			    guest_number: {
+			    	required: "<%= t('guest_number_required') %>",
+			    	number: "<%= t('guest_number_format') %>"
+			    }
+			}
 		});
 	});
 </script>
