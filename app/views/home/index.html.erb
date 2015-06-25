@@ -200,6 +200,8 @@
 		$('form').on('ajax:success', function() {
 			$('#rsvp-error-msg').addClass('hidden');
 			$('#rsvp-success-msg').removeClass('hidden');
+			$('form input.form-control').val('');
+			$('form textarea.form-control').val('');
 		}).on('ajax:error', function() {
 			$('#rsvp-error-msg').removeClass('hidden');
 			$('#rsvp-success-msg').addClass('hidden');
