@@ -55,7 +55,7 @@ function linkExternals() {
 
 $(document).ready(function() {
 	setInterval(function () {
-		$('#timer').html(countdown(new Date(), new Date(2015, 8, 15, 16, 30, 0, 0), countdown.MONTHS|countdown.DAYS|countdown.HOURS|countdown.MINUTES ).toString());
+		$('#timer').html(countdown(new Date(), new Date(2015, 8, 19, 16, 30, 0, 0), countdown.MONTHS|countdown.DAYS|countdown.HOURS|countdown.MINUTES ).toString());
 	}, 1000);
 
 	loadMap();
